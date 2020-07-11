@@ -55,7 +55,9 @@ start.addEventListener("click", () => {
 var reset = document.querySelector(".btn-reset")
 reset.addEventListener('click',()=>{
     clearInterval(interval);
-    hours,minutes,seconds = 0;
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
     counter.textContent = "00:00:00";
     start.textContent = "start";
     start.classList.remove("btnStop")
