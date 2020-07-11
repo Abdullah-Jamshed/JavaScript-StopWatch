@@ -37,7 +37,7 @@ var start = document.querySelector(".btn-start");
 start.addEventListener("click", () => {
   if (status === "stopped") {
     //Start the stopwatch (by calling the setInterval() function)
-    interval = setInterval(StopWatch, 1000);
+    interval = setInterval(StopWatch, 0.1);
     start.textContent = "stop";
     status = "started";
     start.classList.add("btnStop")
@@ -55,7 +55,9 @@ start.addEventListener("click", () => {
 var reset = document.querySelector(".btn-reset")
 reset.addEventListener('click',()=>{
     clearInterval(interval);
-    hours,minutes,seconds = 0;
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
     counter.textContent = "00:00:00";
     start.textContent = "start";
     start.classList.remove("btnStop")
