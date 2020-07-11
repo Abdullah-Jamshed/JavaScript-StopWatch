@@ -37,7 +37,7 @@ var start = document.querySelector(".btn-start");
 start.addEventListener("click", () => {
   if (status === "stopped") {
     //Start the stopwatch (by calling the setInterval() function)
-    interval = setInterval(StopWatch, 0.1);
+    interval = setInterval(StopWatch, 1000);
     start.textContent = "stop";
     status = "started";
     start.classList.add("btnStop")
