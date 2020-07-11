@@ -59,5 +59,5 @@ reset.addEventListener('click',()=>{
     counter.textContent = "00:00:00";
     start.textContent = "start";
     start.classList.remove("btnStop")
-
+    status = "stopped";
 })
