@@ -1,0 +1,81 @@
+@font-face{
+    font-family: "merri";
+    src: url(./font/merri-reg/MerriweatherSans-Regular.ttf)
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    align-items: center;
+    justify-content: center;
+    height: 96vh;
+    font-family: "merri";
+}
+
+.main {
+  width: 40%;
+  /* margin: 30px auto; */
+  border-radius: 10px;
+  box-shadow: 0 0 14px 0.5px;
+}
+
+
+.sub-container-1 {
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #fafafa;
+    padding: 50px;
+    /* display: inline-block; */
+    /* width: 100%; */
+}
+
+.sub-container-1 p{
+    margin: 0px;
+}
+
+.sub-container-2 {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* margin: 0px auto; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px ;
+    background-color: #515151;
+
+}
+
+.btn {
+    color: white;
+    background-color: rgb(0, 153, 255);
+    outline: none;
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 7px;
+    width: 100px;
+
+}
+
+
+.btn:hover {
+    background-color: white;
+    color: rgb(0, 153, 255);
+}
+
+.btnStop{
+    background-color: #ee3333;
+    color: white;
+    border: 0px;
+}
+
+.btnStop:hover {
+    background-color: white;
+    color: #ee3333;
+    border: 0px;
+}
